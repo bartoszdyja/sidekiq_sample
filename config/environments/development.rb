@@ -17,7 +17,7 @@ Rails.application.configure do
   # to be appraised of mailing errors
   config.action_mailer.raise_delivery_errors = true
   # to deliver to the browser instead of email
-  config.action_mailer.delivery_method = :letter_opene
+  config.action_mailer.delivery_method = :letter_opener
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
